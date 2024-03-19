@@ -1,0 +1,10 @@
+# Commandes Git pour réaliser un push
+
+# 1. Vérifier l'état de la branche locale
+git status
+
+# 2. Ajouter les fichiers modifiés ou nouvellement créés à la zone de staging
+git add .
+
+# 3. Effectuer le push des modifications locales vers le repository distant (origin) sur une branche spécifique (main par exemple)
+git push origin main
