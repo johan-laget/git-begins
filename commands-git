@@ -8,3 +8,5 @@ git add .
 
 # 3. Effectuer le push des modifications locales vers le repository distant (origin) sur une branche spécifique (main par exemple)
 git push origin main
+
+git pull
