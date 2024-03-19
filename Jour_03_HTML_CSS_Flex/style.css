@@ -1,0 +1,319 @@
+body {
+
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Couleur de fond en dehors de la zone principale */
+}
+
+main {
+    margin-top: 1px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    background-color:  rgb(255, 255, 255); /* Couleur de fond de la zone principale */
+}
+
+ /************************************************************* index ****************************************************************************/
+
+
+.class1 {
+    text-size-adjust: 20px;
+    margin-bottom: 10px;
+}
+
+
+header {
+    background-color: #62a37b;
+    padding: 10px;
+}
+
+.navbarflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarflex ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarflex ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbarflex ul li:last-child {
+    margin-right: 0;
+}
+
+.navbarflex ul li a {
+    text-decoration: none;
+    color: #080808;
+}
+
+.navbarflex ul li a:hover {
+    color: #007bff; /* Change la couleur du texte au survol */
+}
+
+.searchbar {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+p {
+    font-size: 16px;
+    text-size-adjust: 100px;
+    text-align: center;
+    margin: 40px 0;
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    margin-left: 200px ;
+    text-align: justify;
+    
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.service {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #2e2d2d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo-container {
+    width: 200px; /* Définissez la largeur souhaitée pour le logo container */
+    height: 200px; /* Définissez la hauteur souhaitée pour le logo container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+width: 300px;
+display: flex;
+margin: 0 auto;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+.flexbox {
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom:solid 2px  #080808;
+    border-top:solid 2px  #080808;
+    margin: 2em;
+}
+.flexbox ul {
+    gap: 2em;
+    display: flex;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.flexbox li {
+    list-style: none;
+  
+    margin: 0px;
+    text-align: justify;
+
+}
+
+.gallery-home {
+    display: flex;
+    justify-content: center; /* Pour centrer les images horizontalement */
+ /* Ajoute une marge à gauche */
+
+}
+
+.gallery-home img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #a3a3a3;
+    margin: 0 20px 30px 0 ;
+}
+
+.gallery-home img:last-child {
+    margin-right: 0;
+}
+
+footer {
+    margin: 3m;
+    background-color: #62a37b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+}
+.custom-link {
+    color: black; /* Couleur initiale du lien */
+    text-decoration: none; /* Supprime la soulignement par défaut */
+  }
+  
+  .custom-link:active {
+    color: blue; /* Couleur du lien lorsqu'il est cliqué */
+  }
+
+  /************************************************************* entrprise ****************************************************************************/
+.gallery-entreprise{
+    display: flex;
+    justify-content: center; /* Pour centrer les images horizontalement */
+ /* Ajoute une marge à gauche */
+
+}
+
+.gallery-entreprise img {
+    border-radius: 10%;
+    width: 250px;
+    height: 300px;
+    margin: 0 20px 30px 0;
+    object-fit: cover;
+}
+
+.gallery-entreprise img:last-child {
+    margin-right: 0;
+}
+.gallery-entreprise > img + span {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);    
+}
+.gallery-entreprise {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Pour que les articles s'enroulent sur plusieurs lignes si nécessaire */
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 0 20px 30px 0;
+}
+
+.gallery-img {
+
+    width: 250px;
+    height: 300px;
+    margin: 0 20px 30px 0;
+    object-fit: cover;
+}
+
+.image-caption {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+}
+
+ /************************************************************* contact ****************************************************************************/
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact form .form-group label {
+    margin-bottom: 5px;
+}
+
+.contact form input[type="text"],
+.contact form select,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form input[type="checkbox"] {
+    margin-left: -580px;
+}
+
+.contact form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #62a37b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact form button[type="submit"]:hover {
+    background-color: #4e875e;
+}
+
+
+ /************************************************************* realisation ****************************************************************************/
+.gallery-realisations{
+display: flex;
+justify-content: center; 
+}
+
+.gallery-realisations img {
+border-radius: 10%;
+width: 250px;
+height: 300px;
+margin: 0 20px 30px 0;
+object-fit: cover;
+}
+
+.gallery-realisations img:last-child {
+margin-right: 0;
+}
+.gallery-realisations > img + span {
+display: block;
+text-align: center;
+margin-top: 5px;
+color: rgb(0, 0, 0);    
+}
+.gallery-realisations {
+display: flex;
+justify-content: center;
+flex-wrap: wrap; /* Pour que les articles s'enroulent sur plusieurs lignes si nécessaire */
+}
