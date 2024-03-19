@@ -10,3 +10,10 @@ git add .
 git push origin main
 
 git pull
+
+# Commande pour créer une branche
+git checkout -b <nom_de_la_nouvelle_branche>
+
+# Commande pour basculer entre les branches
+git checkout <nom_de_la_branche>
+
